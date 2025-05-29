@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+body{ 
+    
+    box-sizing: border-box;
+   /* height: 100vh;*/
+    Background-color: black;
+    color:aliceblue;
+
+}
+
+
+*{
+    margin : 0;
+    padding : 0;
+
+
+}
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+    gap: 80px;
+  
+}
+.cabecalho__menu{
+   text-align: center;
+   display: flex;
+   gap: 80px;
+  
+}
+
+.cabecalho__menu__links{
+    font-family: Pixelify Sans;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #2400f1;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+
+
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+.apresentacao__conteudo__titulo{
+    font-size: 2.25rem;
+    font-family: "Krona One", sans-serif;;  
+}
+
+.destaque-titulo{
+  
+    color: rgb(255, 1, 1);
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+.apresentacao__links__subtitulo{
+
+font-family: "Pixelify Sans", sans-serif;
+font-weight: 400;
+font-size: 1.5rem;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+     background-color: rgb(255, 255, 255); 
+    border: 05px solid #2400f1;
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-family: "Pixelify Sans", sans-serif;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out ;
+
+
+}
+.apresentacao__links__link:hover{
+
+    background-color: #2400f1;
+
+}
+
+.apresentacao__links__imagens{
+    width: 28px;
+   height: 25;
+    
+}
+
+a:hover{
+transform: scale(1.05);
+
+}
+
+
+.apresentacao__imagem{
+width: 50%;
+
+}
+
+
+.rodape{
+    color: #000000;
+    background-color: darkblue;
+    padding: 24px;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 2rem;
+}
+
+.cabecalho__about{
+    display: flex;
+    padding: 70px;
+    
+}
+
+.gohan__joinha{
+    width: 50%;
+    
+   
+    
+
+}
+
+@media (max-width:1200px) {
+ 
+    .cabecalho{
+        padding: 10%;
+    
+    }
+ 
+  .cabecalho__menu{
+
+    justify-content: center;
+  }
+ 
+    .apresentacao {
+     flex-direction: column-reverse
+  }
+  .cabecalho{
+
+  }
+}
+

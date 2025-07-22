@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projeto Shenlong - Make a Wish</title>
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+  <header class="cabecalho">
+    <nav class="cabecalho__menu">
+      <a class="cabecalho__menu__links" href="index.html">HOME</a>
+      <a class="cabecalho__menu__links" href="about.html">SOBRE MIM</a>
+      <a class="cabecalho__menu__links" href="make-a-wish.html">SHENLONG</a>
+    </nav>
+  </header>
+
+  <main class="apresentacao">
+    <section class="apresentacao__conteudo">
+      <h1 class="apresentacao__conteudo__titulo">
+        Vamos lá buscar as <strong class="destaque-titulo-laranja">Esferas do Dragão</strong> para mudar vidas
+      </h1>
+
+      <p class="apresentacao__conteudo__texto">
+        Neste projeto especial, unimos o espírito dos guerreiros Z com o poder da Fundação <strong class="desejos_site">Make-A-Wish</strong>.
+        Assim como invocar Shenlong exige esforço coletivo, realizar o desejo de uma criança também.
+        Ajude-nos a juntar as 7 Esferas e transformar sonhos em realidade!
+      </p>
+
+      <h2 class="apresentacao__links__subtitulo">Como ajudar?</h2>
+
+      <div class="apresentacao__links">
+        <a class="apresentacao__link__wish" href="https://makeawish.org.br/" target="_blank">
+          Contribua com a Fundação 
+          <img class="apresentacao__links__imagem__wish" src="assets/wish.png" alt="Make a wish" />
+        </a>
+      </div>
+
+      <form class="apresentacao__formulario" style="display: flex; flex-direction: column; gap: 16px; margin-top: 32px;">
+        <input type="text" name="nome" placeholder="Seu nome" required style="padding: 12px; border-radius: 8px; border: none;" />
+        <input type="email" name="email" placeholder="Seu email" required style="padding: 12px; border-radius: 8px; border: none;" />
+        <textarea name="mensagem" placeholder="Escreva seu desejo ou mensagem de apoio..." required style="padding: 12px; border-radius: 8px; border: none;" rows="4"></textarea>
+        <button type="submit" style="
+          padding: 16px;
+          background-color:#0693e3;
+          color: black;
+          font-family: 'Pixelify Sans', sans-serif;
+          border: none;
+          border-radius: 12px;
+          font-size: 1.2rem;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+         
+        ">Desejar para Shenlong</button>
+      </form>
+    </section>
+
+    <video class="apresentacao__imagem" autoplay muted loop playsinline>
+        <source src="assets/shenlong.mp4" type="video/mp4">
+     
+      </video>
+      
+  </main>
+
+  <footer class="rodape">
+    <p>Desenvolvido por Son Gohan </p>
+  </footer>
+</body>
+</html>

@@ -6,8 +6,8 @@ body{
     
     box-sizing: border-box;
    /* height: 100vh;*/
-    Background-color: black;
-    color:aliceblue;
+    Background-color: #4488bb;
+    color:black;
 
 }
 
@@ -35,7 +35,7 @@ body{
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
-    color: #2400f1;
+    color: orange;
     cursor: pointer;
     text-decoration: none;
 
@@ -62,7 +62,7 @@ body{
 
 .destaque-titulo{
   
-    color: rgb(255, 1, 1);
+    color: orange
 }
 
 .apresentacao__conteudo__texto{
@@ -88,8 +88,27 @@ font-size: 1.5rem;
     display: flex;
     justify-content: center;
     gap: 16px;
-     background-color: rgb(255, 255, 255); 
+     background-color: #2400f1; 
     border: 05px solid #2400f1;
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-family: "Pixelify Sans", sans-serif;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out ;
+
+
+}
+.apresentacao__link__wish{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+     background-color: #0a4ecce7;
+    border: 05px solid #4169E1;
     width: 50%;
     text-align: center;
     border-radius: 16px;
@@ -105,7 +124,7 @@ font-size: 1.5rem;
 }
 .apresentacao__links__link:hover{
 
-    background-color: #2400f1;
+    background-color: white;
 
 }
 
@@ -113,6 +132,12 @@ font-size: 1.5rem;
     width: 28px;
    height: 25;
     
+}
+.apresentacao__links__imagem__wish{
+    width: 100px;
+    height: 100px;
+    
+
 }
 
 a:hover{
@@ -129,7 +154,7 @@ width: 50%;
 
 .rodape{
     color: #000000;
-    background-color: darkblue;
+    background-color: rgb(51, 51, 231);
     padding: 24px;
     text-align: center;
     font-family: "Pixelify Sans", sans-serif;
@@ -170,3 +195,11 @@ width: 50%;
   }
 }
 
+.destaque-titulo-laranja{
+color: orange;
+
+}
+.desejos_site{
+color: white;
+
+}
